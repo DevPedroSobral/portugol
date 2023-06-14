@@ -18,7 +18,7 @@ programa
 
 		cadeia nomeUsuario
 		escreva("Digite seu nome: ")
-		leia(nomeUsuario	)
+		leia(nomeUsuario)
 		escreva("É um prazer conhece-lo(a) " + nome + " !")
 	}
 }
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 512; 
+ * @POSICAO-CURSOR = 451; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

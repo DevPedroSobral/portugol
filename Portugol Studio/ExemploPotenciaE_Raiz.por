@@ -1,20 +1,13 @@
 programa
 {
-	
+	inclua biblioteca Matematica --> mathics
 	funcao inicio()
-	{	
+	{
 		inteiro a, b
-		escreva("Digite um número: ")
-		leia(a)
-		escreva("Digite outro número: ")
-		leia(b)
-		se (a > b) {
-			escreva("O número "+a+" é maior que o "+b)
-		} se (b > a) {
-			escreva("O número "+b+" é maior que o "+a)
-		} se (a == b) {
-			escreva("Nenhum número é maior do que o outro, ambos são iguais!")
-		}
+		a = 2
+		b = 25
+		escreva(mathics.potencia(a, 10))
+		escreva("\n"+mathics.raiz(b, 2))
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 290; 
+ * @POSICAO-CURSOR = 158; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

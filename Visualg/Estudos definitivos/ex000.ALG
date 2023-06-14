@@ -3,7 +3,7 @@ algoritmo ""
 // Professor   : Gustavo Guanabara
 // Descrição   :
 // Autor(a)    : Pedro Luiz Melo Sobral
-// Data atual  : 22/05/2023
+// Data atual  : 00/06/2023
 var
 
 inicio
