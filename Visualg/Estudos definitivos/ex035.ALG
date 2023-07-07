@@ -8,15 +8,13 @@ var
    num, cont, fat: inteiro
 inicio
    EscrevaL("Digite um número para fazer o fatorial")
-   leia(cont)
-   fat <- cont
-   
+   Leia(num)
+   fat <- num
+   Escreva(fat)
    Repita
-      multi <- fat * (cont - 1)
-      fat <- multi
-      Escreva(cont, " x ")
-      cont <- cont - 1
-   ate cont < num
-   Escreval(" = ")
-   
+      num <- num - 1
+      escreva(" x ", num)
+      fat <- fat * num
+   Ate num = 1
+   escreva(" =", fat)
 fimalgoritmo
