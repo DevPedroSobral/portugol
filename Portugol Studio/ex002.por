@@ -10,16 +10,16 @@ programa
 		caracter sexo = 'M'
 		logico casado = falso
 		
-		escreva("Seu nome é " + nome)
-		escreva(" Sua idade é " + idade + " de idade")
-		escreva(" Seu peso é " + peso)
-		escreva(" Seu gênero é [M/F]? " + sexo)
-		escreva(" Você é casado? " + casado)
+		escreva("\nSeu nome é " + nome)
+		escreva("\nSua idade é " + idade + " de idade")
+		escreva("\nSeu peso é " + peso)
+		escreva("\nSeu gênero é [M/F]? " + sexo)
+		escreva("\nVocê é casado? " + casado)
 
 		cadeia nomeUsuario
-		escreva("Digite seu nome: ")
+		escreva("\nDigite seu nome: ")
 		leia(nomeUsuario)
-		escreva("É um prazer conhece-lo(a) " + nome + " !")
+		escreva("\nÉ um prazer conhece-lo(a) " + nome + " !")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 451; 
+ * @POSICAO-CURSOR = 302; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
